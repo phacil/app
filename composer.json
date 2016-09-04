@@ -1,0 +1,31 @@
+{
+    "name": "phacil/app",
+    "description": "Phacil PHP Framework App",
+    "license": "MIT",
+    "keywords": ["php, framework, phacil", "app"],
+    "authors": [
+        {
+            "name": "Alisson Nascimento",
+            "email": "alisson.sa.nascimento@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "phacil/phacil": "dev-development"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:phacil/phacil.git"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "extensions/",
+            "Business\\": "src/"
+        }
+    }
+}
