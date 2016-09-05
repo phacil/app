@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ef7247ea6b8fdf7d47ec4d9ae6dded03",
-    "content-hash": "0adfe91565efe922046580e9571c1b8f",
+    "hash": "19fc42f483625c9f1b5c7f3198671303",
+    "content-hash": "1daf60b1b5670a4ec7a2d6d767c70d99",
     "packages": [
         {
             "name": "filp/whoops",
@@ -68,17 +68,65 @@
             "time": "2016-05-06 18:25:35"
         },
         {
+            "name": "phacil/html",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phacil/html.git",
+                "reference": "732d5893e02e4911296df4831b2a33044fa56673"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phacil/html/zipball/732d5893e02e4911296df4831b2a33044fa56673",
+                "reference": "732d5893e02e4911296df4831b2a33044fa56673",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phacil\\HTML\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alisson Nascimento",
+                    "email": "alisson.sa.nascimento@gmail.com"
+                }
+            ],
+            "description": "Phacil PHP Framework HTML Classes",
+            "keywords": [
+                "framework",
+                "html",
+                "phacil",
+                "php"
+            ],
+            "support": {
+                "source": "https://github.com/phacil/html/tree/master",
+                "issues": "https://github.com/phacil/html/issues"
+            },
+            "time": "2016-09-05 14:46:52"
+        },
+        {
             "name": "phacil/phacil",
             "version": "dev-development",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phacil/phacil.git",
-                "reference": "d1717ebd671997a1a352e7cdbc436db88d8fc134"
+                "reference": "2ee94b73207d7337e4bc023daa3aff77c120caea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phacil/phacil/zipball/d1717ebd671997a1a352e7cdbc436db88d8fc134",
-                "reference": "d1717ebd671997a1a352e7cdbc436db88d8fc134",
+                "url": "https://api.github.com/repos/phacil/phacil/zipball/2ee94b73207d7337e4bc023daa3aff77c120caea",
+                "reference": "2ee94b73207d7337e4bc023daa3aff77c120caea",
                 "shasum": ""
             },
             "require": {
@@ -92,7 +140,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Phacil\\": "src"
+                    "Phacil\\": "src/"
                 }
             },
             "license": [
@@ -106,13 +154,15 @@
             ],
             "description": "Phacil PHP Framework",
             "keywords": [
-                "php, framework, phacil"
+                "framework",
+                "phacil",
+                "php"
             ],
             "support": {
                 "source": "https://github.com/phacil/phacil/tree/development",
                 "issues": "https://github.com/phacil/phacil/issues"
             },
-            "time": "2016-09-04 20:36:45"
+            "time": "2016-09-05 16:53:39"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -864,7 +914,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "phacil/phacil": 20
+        "phacil/phacil": 20,
+        "phacil/html": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

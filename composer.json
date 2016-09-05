@@ -2,7 +2,7 @@
     "name": "phacil/app",
     "description": "Phacil PHP Framework App",
     "license": "MIT",
-    "keywords": ["php, framework, phacil", "app"],
+    "keywords": ["php", "framework", "phacil", "app"],
     "authors": [
         {
             "name": "Alisson Nascimento",
@@ -11,12 +11,17 @@
     ],
     "require": {
         "php": ">=5.4",
-        "phacil/phacil": "dev-development"
+        "phacil/phacil": "dev-development",
+		"phacil/html": "dev-development"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url":  "git@github.com:phacil/phacil.git"
+            "url":  "https://github.com/phacil/phacil.git"
+        },
+		{
+            "type": "vcs",
+            "url":  "https://github.com/phacil/html.git"
         }
     ],
     "require-dev": {
