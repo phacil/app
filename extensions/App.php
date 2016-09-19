@@ -1,5 +1,5 @@
 <?php
 
-class App extends \Phacil\Environment\App {
+class App extends \Phacil\Kernel\App {
     //put your code here
 }

@@ -12,7 +12,7 @@
     "require": {
         "php": ">=5.4",
         "phacil/phacil": "dev-development",
-        "phacil/html": "dev-master"
+        "phacil/html": "dev-development"
     },
     "repositories": [
         {

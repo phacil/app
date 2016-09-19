@@ -102,4 +102,4 @@ define('LOGS_DIR', ROOT . LOGS_FOLDER . DS);
 /**
  * 
  */
-require CORE_DIR . 'bootstrap.php';
+require CONFIG_DIR . 'bootstrap.php';

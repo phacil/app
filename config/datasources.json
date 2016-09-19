@@ -2,7 +2,7 @@
     "default": {
         "driver": "mysql",
         "host": "localhost",
-        "database": "localidade",
+        "database": "testes",
         "username": "root",
         "password": "asd123"
     }

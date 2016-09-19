@@ -1,4 +1,4 @@
 <?php
 
-class Html extends \Phacil\HTML\HTML{
+class Html extends \Phacil\Component\HTML\HTML{
 }
