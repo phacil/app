@@ -7,10 +7,10 @@
  */
 
 /**
- * Description of Params
+ * Description of Request
  *
  * @author alisson
  */
-class Params extends Phacil\Kernel\Params{
+class Request extends Phacil\Kernel\Request{
     //put your code here
 }

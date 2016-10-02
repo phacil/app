@@ -1,4 +1,4 @@
 <?php
 
-class Form extends \Phacil\HTML\Form{    
+class Form extends \Phacil\Component\HTML\Form{    
 }
