@@ -16,13 +16,18 @@ App::set('prefixes', ['admin']);
 App::set('datasources', from_file_json(CONFIG_DIR . 'datasources'));
 
 /**
+ * SESSION
+ */
+
+Session::start();
+
+/**
  * ROUTING
  */
 Router::add('GET', '/', ['Statics', 'about']);
 
-Router::add('GET', '/hello/:nome', function($nome){
-    echo 'hello ' . $nome;
-});
-
+/**
+ * Manter essa rota como a ultima rota
+ */
 Router::add('GET|POST|PUT|DELETE', '/*', null);
     

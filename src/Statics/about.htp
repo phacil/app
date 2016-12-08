@@ -12,4 +12,5 @@
     echo Html::h3('O que há de novo nessa versão');
     
     echo Html::a('Cheque outras versões')->href('#');
+
 ?>

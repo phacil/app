@@ -12,16 +12,21 @@
     "require": {
         "php": ">=5.4",
         "phacil/phacil": "dev-development",
-        "phacil/html": "dev-development"
+        "phacil/html": "dev-development",
+        "phacil/integration": "dev-development"
     },
     "repositories": [
         {
             "type": "vcs",
             "url":  "https://github.com/phacil/phacil.git"
         },
-		{
+        {
             "type": "vcs",
             "url":  "https://github.com/phacil/html.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "https://github.com/phacil/integration.git"
         }
     ],
     "require-dev": {
