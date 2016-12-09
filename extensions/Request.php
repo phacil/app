@@ -11,6 +11,6 @@
  *
  * @author alisson
  */
-class Request extends Phacil\Kernel\Request{
+class Request extends Phacil\HTTP\Request{
     //put your code here
 }
