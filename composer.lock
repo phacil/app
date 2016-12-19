@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d6b42bfb2e5270a6fce282b10f39f061",
-    "content-hash": "a0adc0c3f01c7c2ed2fa0f8d4115bb0b",
+    "hash": "5df5aed0d70afd3fc897b487d7008556",
+    "content-hash": "8ef78b4362bc187ce1d07431e4154c32",
     "packages": [
         {
             "name": "filp/whoops",
@@ -69,16 +69,16 @@
         },
         {
             "name": "icanboogie/inflector",
-            "version": "v1.4.1",
+            "version": "v1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ICanBoogie/Inflector.git",
-                "reference": "94ce86a4c4e229ebfb1a959e9094b385c0ff9a8e"
+                "reference": "d3a2c4930c67fa93dc782f67955b85d56369742c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ICanBoogie/Inflector/zipball/94ce86a4c4e229ebfb1a959e9094b385c0ff9a8e",
-                "reference": "94ce86a4c4e229ebfb1a959e9094b385c0ff9a8e",
+                "url": "https://api.github.com/repos/ICanBoogie/Inflector/zipball/d3a2c4930c67fa93dc782f67955b85d56369742c",
+                "reference": "d3a2c4930c67fa93dc782f67955b85d56369742c",
                 "shasum": ""
             },
             "require": {
@@ -117,7 +117,7 @@
                 "singularize",
                 "underscore"
             ],
-            "time": "2016-07-02 11:14:17"
+            "time": "2016-12-15 09:15:25"
         },
         {
             "name": "phacil/html",
@@ -125,12 +125,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phacil/html.git",
-                "reference": "a5cd724c2148f7a7d74b7d5b8d7c77183add3744"
+                "reference": "cc4a2f41d181fd237b365ecac11a5957f9d1857e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phacil/html/zipball/a5cd724c2148f7a7d74b7d5b8d7c77183add3744",
-                "reference": "a5cd724c2148f7a7d74b7d5b8d7c77183add3744",
+                "url": "https://api.github.com/repos/phacil/html/zipball/cc4a2f41d181fd237b365ecac11a5957f9d1857e",
+                "reference": "cc4a2f41d181fd237b365ecac11a5957f9d1857e",
                 "shasum": ""
             },
             "require": {
@@ -166,7 +166,59 @@
                 "source": "https://github.com/phacil/html/tree/development",
                 "issues": "https://github.com/phacil/html/issues"
             },
-            "time": "2016-10-02 14:20:52"
+            "time": "2016-12-14 05:21:26"
+        },
+        {
+            "name": "phacil/http",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phacil/http.git",
+                "reference": "6bbec2f25d45465db774bfc5404d4c4843ec8743"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phacil/http/zipball/6bbec2f25d45465db774bfc5404d4c4843ec8743",
+                "reference": "6bbec2f25d45465db774bfc5404d4c4843ec8743",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "symfony/http-foundation": "^3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phacil\\Component\\HTTP\\": "src/"
+                },
+                "files": [
+                    "src/functions.inc.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alisson Nascimento",
+                    "email": "alisson.sa.nascimento@gmail.com"
+                }
+            ],
+            "description": "Phacil PHP Framework HTTP Classes",
+            "keywords": [
+                "framework",
+                "http",
+                "phacil",
+                "php"
+            ],
+            "support": {
+                "source": "https://github.com/phacil/http/tree/development",
+                "issues": "https://github.com/phacil/http/issues"
+            },
+            "time": "2016-12-15 03:52:11"
         },
         {
             "name": "phacil/integration",
@@ -223,12 +275,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phacil/phacil.git",
-                "reference": "cf4f662c1a5729952ef110de29c211df8883b8bb"
+                "reference": "07aa39d45fd976c303b76e7f75782012e244d2d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phacil/phacil/zipball/cf4f662c1a5729952ef110de29c211df8883b8bb",
-                "reference": "cf4f662c1a5729952ef110de29c211df8883b8bb",
+                "url": "https://api.github.com/repos/phacil/phacil/zipball/07aa39d45fd976c303b76e7f75782012e244d2d9",
+                "reference": "07aa39d45fd976c303b76e7f75782012e244d2d9",
                 "shasum": ""
             },
             "require": {
@@ -269,11 +321,11 @@
                 "source": "https://github.com/phacil/phacil/tree/development",
                 "issues": "https://github.com/phacil/phacil/issues"
             },
-            "time": "2016-10-02 04:05:26"
+            "time": "2016-12-09 11:03:52"
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
@@ -385,16 +437,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "86f4e8aeb07bd5fb467f6bdd599a30298d19fa5f"
+                "reference": "f722532b0966e9b6fc631e682143c07b2cf583a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/86f4e8aeb07bd5fb467f6bdd599a30298d19fa5f",
-                "reference": "86f4e8aeb07bd5fb467f6bdd599a30298d19fa5f",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/f722532b0966e9b6fc631e682143c07b2cf583a0",
+                "reference": "f722532b0966e9b6fc631e682143c07b2cf583a0",
                 "shasum": ""
             },
             "require": {
@@ -444,7 +496,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2016-11-29 10:33:09"
+            "time": "2016-12-11 14:34:22"
         }
     ],
     "packages-dev": [
@@ -1023,7 +1075,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.8.14",
+            "version": "v2.8.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
@@ -1076,6 +1128,7 @@
     "stability-flags": {
         "phacil/phacil": 20,
         "phacil/html": 20,
+        "phacil/http": 20,
         "phacil/integration": 20
     },
     "prefer-stable": false,

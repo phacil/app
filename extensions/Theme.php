@@ -1,4 +1,4 @@
 <?php
 
-class Theme extends \Phacil\Architecture\Theme{
+class Theme extends \Phacil\Core\Architecture\Theme{
 }

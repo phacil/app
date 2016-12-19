@@ -62,7 +62,7 @@ define('THEMES_URL', ROOT_URL . THEMES_FOLDER . DS);
 /**
  * 
  */
-define('BUSINESS_NAMESAPACE', 'Business');
+define('BUSINESS_NAMESAPACE', 'Phacil\\App');
 
 /**
  * 

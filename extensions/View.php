@@ -1,4 +1,4 @@
 <?php
 
-class View extends Phacil\Architecture\View{
+class View extends Phacil\Core\Architecture\View{
 }

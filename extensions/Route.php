@@ -1,6 +1,6 @@
 <?php
 
 
-class Route extends \Phacil\Routing\Route{
+class Route extends \Phacil\Core\Routing\Route{
     
 }

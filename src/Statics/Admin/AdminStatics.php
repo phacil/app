@@ -1,8 +1,8 @@
 <?php
 
-namespace Business\Statics\Admin;
+namespace Phacil\App\Statics\Admin;
 
-class AdminStatics extends \Business\Statics\Statics{
+class Statics extends Phacil\App\Statics\Statics{
     
     public function index() {
         

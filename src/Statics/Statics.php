@@ -1,7 +1,8 @@
 <?php
 
-namespace Business\Statics;
-use Business\Controller as Controller;
+namespace Phacil\App\Statics;
+
+use Phacil\App\Controller as Controller;
 
 class Statics extends Controller{
 

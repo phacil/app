@@ -13,6 +13,7 @@
         "php": ">=5.4",
         "phacil/phacil": "dev-development",
         "phacil/html": "dev-development",
+        "phacil/http": "dev-development",
         "phacil/integration": "dev-development"
     },
     "repositories": [
@@ -26,6 +27,10 @@
         },
         {
             "type": "vcs",
+            "url":  "https://github.com/phacil/http.git"
+        },
+        {
+            "type": "vcs",
             "url":  "https://github.com/phacil/integration.git"
         }
     ],
@@ -35,7 +40,8 @@
     "autoload": {
         "psr-4": {
             "": "extensions/",
-            "Business\\": "src/"
+            "Phacil\\App\\": "src/",
+            "Phacil\\Plugin\\": "plugins/"
         }
     }
 }
