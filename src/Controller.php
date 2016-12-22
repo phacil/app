@@ -5,8 +5,8 @@
  * @author alisson
  */
 
-namespace Business;
+namespace Phacil\App;
 
-class Controller extends \Phacil\Architecture\Controller{
+class Controller extends \Phacil\Core\Architecture\Controller{
     
 }
