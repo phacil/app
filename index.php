@@ -82,6 +82,16 @@ define('BUSINESS_URL', ROOT_URL . BUSINESS_FOLDER . DS);
 /**
  * 
  */
+define('EXTENSIONS_FOLDER', 'extensions');
+
+/**
+ * 
+ */
+define('EXTENSIONS_DIR', ROOT . EXTENSIONS_FOLDER . DS);
+
+/**
+ * 
+ */
 define('TMP_FOLDER', 'tmp');
 
 /**

@@ -5,9 +5,16 @@
         echo HtML::p()->inject(HTMl::a('Documentação')->href('#')->class('btn btn-primary btn-large'));
     echo Html::end('div');
     
-    echo Html::div('Versão 0.9')->class('alert alert-info');
+    echo Html::div('Versão ' . phacil_version())->class('alert alert-info');
     echo Html::div('Hash não modificado')->class('alert alert-danger');
-    echo Html::div('PHP 5.3')->class('alert alert-success');
+    $compare = (version_compare(PHP_VERSION, '5.4')>=0)?1:-1;
+    echo Html::div(function() use ($compare){
+        if($compare==1){
+            echo 'Versão do PHP ' . substr(PHP_VERSION, 0, 5) . ' >= 5.4.0'; 
+        }else{
+            echo 'Versão do PHP ' . substr(PHP_VERSION, 0, 5) . ' < 5.4.0'; 
+        }
+    })->class($compare==1?'alert alert-success':'alert alert-error');
     
     echo Html::h3('O que há de novo nessa versão');
     

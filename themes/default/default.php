@@ -34,7 +34,7 @@
     </div>
 
     <div class="container">
-      
+        <?= Flash::show(); ?>
         <?=$content?>
     </div> <!-- /container -->
 
