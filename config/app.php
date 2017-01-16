@@ -8,12 +8,12 @@ App::debug(true);
 /**
  * PREFIX
  */
-App::set('prefixes', ['admin']);
+App::set('Config.prefixes', ['admin']);
 
 /**
  * DATASOURCES
  */
-App::set('datasources', from_file_json(CONFIG_DIR . 'datasources'));
+App::set('Config.datasources', require 'datasources.php');
 
 /**
  * SESSION
@@ -30,4 +30,3 @@ Router::add('GET', '/', ['Statics', 'about']);
  * Manter essa rota como a ultima rota
  */
 Router::add('GET|POST|PUT|DELETE', '/*', null);
-    
