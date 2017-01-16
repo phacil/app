@@ -39,7 +39,6 @@
     },
     "autoload": {
         "psr-4": {
-            "": "extensions/",
             "Phacil\\App\\": "src/",
             "Phacil\\Plugin\\": "plugins/"
         }

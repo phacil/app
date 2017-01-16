@@ -8,7 +8,7 @@ App::debug(true);
 /**
  * PREFIX
  */
-App::set('Config.prefixes', ['admin']);
+//App::set('Config.prefixes', ['admin'=>'Admin']);
 
 /**
  * DATASOURCES
