@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
     <!-- Le styles -->
-    <?=Theme::css('bootstrap')?>
+    <?=theme()->css('bootstrap')?>
 
     <style>
       body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
       }
     </style>
-    <?=Theme::css('bootstrap-responsive')?>
+    <?=theme()->css('bootstrap-responsive')?>
   </head>
 
   <body>
@@ -34,7 +34,7 @@
     </div>
 
     <div class="container">
-        <?= Flash::show(); ?>
+        <?= flash()->show(); ?>
         <?=$content?>
     </div> <!-- /container -->
 

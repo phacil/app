@@ -3,30 +3,37 @@
 /**
  * DEBUG
  */
-App::debug(true);
+app()->debug(true);
 
 /**
  * PREFIX
  */
-//App::set('Config.prefixes', ['admin'=>'Admin']);
+//app()->set('Config.prefixes', ['admin'=>'Admin']);
 
 /**
  * DATASOURCES
  */
-App::set('Config.datasources', require 'datasources.php');
+app()->set('Config.datasources', require 'datasources.php');
+
+
+/**
+ * 
+ * Salt
+ */
+app()->set('Config.Salt', 'WPMNxcytVVPquMWMU6Hf56');
 
 /**
  * SESSION
  */
 
-Session::start();
+session()->start();
 
 /**
  * ROUTING
  */
-Router::add('GET', '/', ['Statics', 'about']);
+router()->add('GET', '/', ['Statics', 'about']);
 
 /**
  * Manter essa rota como a ultima rota
  */
-Router::add('GET|POST|PUT|DELETE', '/*', null);
+router()->add('GET|POST|PUT|DELETE', '/*', null);

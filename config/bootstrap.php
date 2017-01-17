@@ -2,7 +2,7 @@
 
 require_once VENDOR_DIR . 'autoload.php';
 
-App::run(function(){
+app()->run(function(){
     require 'app.php';
 });
 
