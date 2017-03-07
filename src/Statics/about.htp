@@ -6,7 +6,15 @@
     echo html()->end('div');
     
     echo html()->div('Versão ' . phacil_version())->class('alert alert-info');
-    echo html()->div('Hash não modificado')->class('alert alert-danger');
+    
+    echo html()->div(function(){
+        if(app()->get('Salt.modified')){
+            echo 'Salt modificado'; 
+        }else{
+            echo 'Salt não modificado'; 
+        }
+    })->class(app()->get('Salt.modified')?'alert alert-success':'alert alert-error');
+    
     $compare = (version_compare(PHP_VERSION, '5.4')>=0)?1:-1;
     echo html()->div(function() use ($compare){
         if($compare==1){

@@ -15,18 +15,23 @@ app()->debug(true);
  */
 app()->set('Config.datasources', require 'datasources.php');
 
-
 /**
  * 
  * Salt
  */
-app()->set('Config.Salt', 'WPMNxcytVVPquMWMU6Hf56');
+app()->set('Config.Salt', 'WPMNxcytVVPquMWMU6Hf5s');
 
 /**
  * SESSION
  */
-
 session()->start();
+
+/**
+ * 
+ * Configurações para a classe Validator
+ */
+app()->set('Validator.lang', 'en');
+app()->set('Validator.folder', CONFIG_DIR . 'validation' . DS);
 
 /**
  * ROUTING
