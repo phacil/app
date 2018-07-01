@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.4",
-        "phacil/phacil": "dev-development"
+        "phacil/phacil": "dev-master"
     },
     "repositories": [
         {
