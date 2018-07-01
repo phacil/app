@@ -11,28 +11,13 @@
     ],
     "require": {
         "php": ">=5.4",
-        "phacil/phacil": "dev-development",
-        "phacil/html": "dev-development",
-        "phacil/http": "dev-development",
-        "phacil/integration": "dev-development"
+        "phacil/phacil": "dev-development"
     },
     "repositories": [
         {
             "type": "vcs",
             "url":  "https://github.com/phacil/phacil.git"
-        },
-        {
-            "type": "vcs",
-            "url":  "https://github.com/phacil/html.git"
-        },
-        {
-            "type": "vcs",
-            "url":  "https://github.com/phacil/http.git"
-        },
-        {
-            "type": "vcs",
-            "url":  "https://github.com/phacil/integration.git"
-        }
+        }        
     ],
     "require-dev": {
         "phpunit/phpunit": "4.0.*"
